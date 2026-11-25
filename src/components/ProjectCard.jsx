@@ -4,7 +4,11 @@ function ProjectCard({ project }) {
   return (
     <article className="project-card">
       <div className="project-card__preview">
-        <span>Captura del proyecto</span>
+        {project.image ? (
+          <img src={project.image} alt={project.imageAlt} />
+        ) : (
+              <span>Captura del proyecto</span>
+            )}
       </div>
 
       <div className="project-card__content">
