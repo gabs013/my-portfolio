@@ -14,7 +14,7 @@
 
 .contact__label {
   margin: 0 0 12px;
-  color: #f0a17e;
+  color: #667085;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -22,7 +22,7 @@
 
 .contact__title {
   margin: 0 0 16px;
-  font-family: Georgia, serif;
+  font-family: 'Lora', Georgia, serif;
   font-size: 34px;
 }
 
@@ -59,8 +59,8 @@
 }
 
 .contact__link--email {
-  border-color: #c6633b;
-  background-color: #c6633b;
+  border-color: #385b46;
+  background-color: #385b46;
 }
 
 .contact__link--email span {

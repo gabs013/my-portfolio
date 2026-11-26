@@ -7,7 +7,7 @@
 
 .technologies__label {
   margin: 0 0 10px;
-  color: #c6633b;
+  color: #667085;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -16,7 +16,7 @@
 .technologies__title {
   margin: 0 0 32px;
   color: #202a36;
-  font-family: Georgia, serif;
+  font-family: 'Lora', Georgia, serif;
   font-size: 32px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .technologies__mark {
-  color: #c6633b;
+  color: #6F4E37;
   font-size: 20px;
   font-weight: bold;
 }

@@ -12,12 +12,25 @@
 .hero__portrait {
   position: relative;
   display: grid;
-  min-height: 340px;
+  min-height: 380px;
   place-items: center;
-  border: 1px dashed #d9aa8e;
+  border: 1px dashed #385b46; /*#d9aa8e*/
   border-radius: 28px;
-  background: linear-gradient(140deg, #f2e5d9, #f8eee5);
-  color: #a84f2f;
+  background-color: #f2e5d9;
+  background: url('/images/fondo-imagen.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;/*#a84f2f*/
+}
+
+.hero__portrait img {
+  display: block;
+  width: 65%;
+  height: 340px;
+  border-radius: 28px;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .hero__badge {
@@ -45,7 +58,7 @@
 .hero__title {
   margin: 0 0 20px;
   color: #202a36;
-  font-family: Georgia, serif;
+  font-family: 'Lora', Georgia, serif;
   font-size: clamp(38px, 5vw, 64px);
   line-height: 1.05;
 }
@@ -91,7 +104,11 @@
   }
 
   .hero__portrait {
-    min-height: 260px;
+    min-height: 290px;
+  }
+
+  .hero__portrait img {
+    height: 260px;
   }
 
   .hero__badge {

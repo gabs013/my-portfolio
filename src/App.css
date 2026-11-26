@@ -18,7 +18,7 @@
 
 .section-label {
   margin: 0 0 10px;
-  color: #c6633b;
+  color: #667085;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -27,7 +27,7 @@
 .section-title {
   margin: 0;
   color: #202a36;
-  font-family: Georgia, serif;
+  font-family: 'Lora', Georgia, serif;
   font-size: 32px;
 }
 
@@ -58,10 +58,10 @@
   min-height: 150px;
   place-items: center;
   overflow: hidden;
-  border: 1px dashed #d9aa8e;
+  border: 1px dashed #546745; 
   border-radius: 14px;
   background-color: #f2e5d9;
-  color: #a84f2f;
+  color: #385a46;
   font-size: 14px;
 }
 
@@ -83,7 +83,7 @@
 .project-card__title {
   margin: 0 0 12px;
   color: #202a36;
-  font-family: Georgia, serif;
+  font-family: 'Lora', Georgia, serif;
   font-size: 22px;
 }
 
@@ -127,11 +127,13 @@
 }
 
 .project-card__links a[href*='github.com'] {
-  background-color: #202a36;
+  background-color: #6f4e37;
+  color: #E8E2D5;
 }
 
 .project-card__links a:not([href*='github.com']) {
-  background-color: #c6633b;
+  background-color: #D9D6AE;
+  color: #866A56;
 }
 
 .project-card__links a:hover {
