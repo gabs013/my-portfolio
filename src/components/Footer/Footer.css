@@ -1,4 +1,4 @@
-.site-footer {
+.footer-site {
   width: 100%;
   border-top: 1px solid #f0e7de;
   background-color: #f2e5d9;
@@ -13,7 +13,7 @@
   background-size: cover;
 }
 
-.site-footer__inner {
+.footer-site__inner {
   display: flex;
   max-width: 1200px;
   justify-content: space-between;
@@ -24,21 +24,21 @@
   font-size: 13px;
 }
 
-.site-footer__inner p {
+.footer-site__inner p {
   margin: 0;
 }
 
-.site-footer__inner a {
+.footer-site__inner a {
   color: #202a36;
   text-decoration: none;
 }
 
-.site-footer__inner a:hover {
+.footer-site__inner a:hover {
   color: #c6633b;
 }
 
 @media (max-width: 600px) {
-  .site-footer__inner {
+  .footer-site__inner {
     align-items: center;
     flex-direction: column;
     text-align: center;
