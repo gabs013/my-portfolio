@@ -4,19 +4,15 @@ function About() {
   return (
     <section className="about" id="sobre-mi">
       <div className="about__heading">
-        <p className="about__label">Sobre mí</p>
+        <p className="about__label">Acerca de mí</p>
         <h2 className="about__title">
-          Código con propósito y una mirada humana.
+          Desarrolladora Frontend Junior
         </h2>
       </div>
 
       <div className="about__card">
         <p className="about__description">
-          Me estoy formando como desarrolladora Front-End y disfruto transformar
-          ideas en interfaces claras y adaptables. En mis proyectos he trabajado
-          con React, JavaScript, APIs y autenticación. Me interesa seguir
-          aprendiendo y cuidar tanto la experiencia de uso como la calidad del
-          código.
+          Egresada del bootcamp de Tripleten en Desarrollo web. Disfruto transformar ideas en interfaces claras y adaptables, aplicando React, JavaScript, APIs y autenticación en mis proyectos. También he desarrollado y desplegado el backend de una aplicación con Node.js, Express, MongoDB y Mongoose. Me interesa continuar aprendiendo y cuidar tanto la experiencia de uso como la calidad del código.
         </p>
 
         <ul className="about__features">

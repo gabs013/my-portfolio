@@ -5,9 +5,9 @@ function Contact() {
     <section className="contact" id="contacto">
       <div className="contact__intro">
         <p className="contact__label">Contacto</p>
-        <h2 className="contact__title">¿Construimos algo juntos?</h2>
+        <h2 className="contact__title">Trabajemos juntos</h2>
         <p className="contact__description">
-          Estoy abierta a oportunidades junior, prácticas y colaboraciones.
+          Abierta a oportunidades como Desarrolladora Front-End Junior, proyectos freelance o colaboraciones. ¿Tienes una idea en mente? Escríbeme.
         </p>
       </div>
 
