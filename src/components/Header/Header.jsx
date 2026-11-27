@@ -2,16 +2,16 @@ import './Header.css';
 
 function Header() {
   return (
-    <header className="site-header">
-      <a className="site-header__brand" href="#inicio" aria-label="Ir al inicio">
-        <span className="site-header__initials">GA</span>
-        <span className="site-header__identity">
+    <header className="header-site">
+      <a className="header-site__brand" href="#inicio" aria-label="Ir al inicio">
+        <span className="header-site__initials">GA</span>
+        <span className="header-site__identity">
           <strong>Gabriela Arroyo</strong>
           <small>Desarrolladora Front-End</small>
         </span>
       </a>
 
-      <nav className="site-header__nav" aria-label="Navegación principal">
+      <nav className="header-site__nav" aria-label="Navegación principal">
         <a href="#inicio">Inicio</a>
         <a href="#proyectos">Proyectos</a>
         <a href="#sobre-mi">Sobre mí</a>
@@ -19,7 +19,7 @@ function Header() {
         <a href="#contacto">Contacto</a>
       </nav>
 
-      <a className="site-header__contact" href="#contacto">
+      <a className="header-site__contact" href="#contacto">
         Hablemos
       </a>
     </header>
