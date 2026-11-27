@@ -25,10 +25,10 @@ Portafolio profesional como desarrolladora Front-End Junior. Aquí presento proy
 - **Around con React y autenticación:** aplicación de galería fotográfica con registro, inicio de sesión y rutas protegidas.
 - **De patria a patria:** página responsiva sobre las ciudades de origen de integrantes de Tripleten.
 
-## Autora
-
-Gabriela Arroyo
-
 ## Portafolio en línea
 
 [Ver mi portafolio](https://my-portfolio-ochre-eight-49.vercel.app)
+
+## Autora
+
+Gabriela Arroyo
