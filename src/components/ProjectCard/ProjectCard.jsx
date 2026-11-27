@@ -1,3 +1,5 @@
+import './ProjectCard.css';
+
 function ProjectCard({ project }) {
   const { title, description, technologies, demoUrl, repositoryUrl } = project;
 
